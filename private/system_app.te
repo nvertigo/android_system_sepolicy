@@ -97,6 +97,8 @@ allow system_app theme_data_file:file create_file_perms;
 control_logd(system_app)
 read_runtime_log_tags(system_app)
 
+allow system_app storaged:binder call;
+
 ###
 ### Neverallow rules
 ###
