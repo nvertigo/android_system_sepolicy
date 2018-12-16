@@ -543,3 +543,6 @@
 #############################
 # mount point for read-write product partitions
 /mnt/product(/.*)?          u:object_r:mnt_product_file:s0
+
+# Themes data
+/data/system/theme(/.*)?    u:object_r:theme_data_file:s0
